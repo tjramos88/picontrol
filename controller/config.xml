@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<gpioPins>
+		<pin>
+			<description>Garage Door</description>
+			<gpioNumber>0</gpioNumber>
+			<config type ="control">
+				<controlValue>0</controlValue>
+				<commandType>Pulse</commandType>
+				<statusPin>
+					<description>Garage Door Status</description>
+					<gpioNumber>1</gpioNumber>
+					<config type = "status">
+						<normalValue>Low</normalValue>
+						<offNormalValue>High</offNormalValue>
+						<normalText>Closed</normalText>
+						<offNormalText>Open</offNormalText>
+					</config>
+				</statusPin>
+			</config>
+		</pin>
+		<pin>
+			<description>Garage Door 2</description>
+			<gpioNumber>1</gpioNumber>
+			<config type ="control">
+				<controlValue>0</controlValue>
+				<commandType>Pulse</commandType>
+				<statusPin>
+					<description>Garage Door Status</description>
+					<gpioNumber>1</gpioNumber>
+					<config type = "status">
+						<normalValue>0</normalValue>
+						<offNormalValue>1</offNormalValue>
+						<normalText>Closed</normalText>
+						<offNormalText>Open</offNormalText>
+					</config>
+				</statusPin>
+			</config>
+		</pin>
+				<pin>
+			<description>Garage Door 3</description>
+			<gpioNumber>7</gpioNumber>
+			<config type ="control">
+				<controlValue>0</controlValue>
+				<commandType>Pulse</commandType>
+				<statusPin>
+					<description>Garage Door Status</description>
+					<gpioNumber>1</gpioNumber>
+					<config type = "status">
+						<normalValue>1</normalValue>
+						<offNormalValue>0</offNormalValue>
+						<normalText>Closed</normalText>
+						<offNormalText>Open</offNormalText>
+					</config>
+				</statusPin>
+			</config>
+		</pin>
+	</gpioPins>
